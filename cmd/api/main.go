@@ -8,3 +8,10 @@ import (
 	"github.com/MananDoshi1301/coinApi/internal/handlers"
 	log "github.com/sirupsen/logrus"
 )
+
+
+
+func main(){
+	log.SetReportCaller(true)
+	
+}
